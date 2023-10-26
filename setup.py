@@ -1,12 +1,15 @@
-from setuptools import setup
-
-from torch_pruner import __version__
+from setuptools import setup, find_packages
 
 setup(
-    name='pytorch_pruner',
-    version=__version__,
+    name='torch_pruner',
+    version="dev",
     url='https://github.com/MingxuanZhangPurdue/pytorch_pruner',
     author='Mingxuan Zhang',
     author_email='zhan3692@purdue.edu',
-    py_modules=['torch_pruner'],
+    packages=find_packages(),
+    python_requires='>=3.8',
+    install_requires=[
+    'torch',
+    'numpy'
+    ]
 )
