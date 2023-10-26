@@ -1,1 +1,1 @@
-# pytorch_pruner
+# pytorch_sparsify
