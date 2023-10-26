@@ -1,9 +1,9 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='torch_pruner',
+    name='torch_sparsify',
     version="1.0",
-    url='https://github.com/MingxuanZhangPurdue/pytorch_pruner',
+    url='https://github.com/MingxuanZhangPurdue/pytorch_sparsify',
     author='Mingxuan Zhang',
     author_email='zhan3692@purdue.edu',
     packages=find_packages(),
@@ -13,5 +13,5 @@ setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    python_requires='>=3.6',
+    python_requires='>=3.8',
 )
